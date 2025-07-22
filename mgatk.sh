@@ -1,0 +1,1 @@
+source activate mgatkmgatk tenx \-i {path to cellranger_count/outs/atac_possorted_bam.bam}  \-o {OUTDIR}/{wildcards.sample}/mgatk \-bt CB -b {path to /cellranger_count/outs/filtered_feature_bc_matrix/barcodes.tsv}
